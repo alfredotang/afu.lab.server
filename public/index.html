@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afu Server</title>
+  </head>
+  <link
+    rel="icon"
+    href="https://cdn.icon-icons.com/icons2/1852/PNG/512/iconfinder-server2-4417099_116631.png"
+  />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      background-color: teal;
+    }
+    .header {
+      width: 100%;
+      background-color: teal;
+      padding: 1em;
+      box-sizing: border-box;
+      color: skyblue;
+      display: flex;
+    }
+    .header h1 {
+      flex-basis: 20%;
+    }
+    .header nav {
+      flex-basis: 80%;
+      display: flex;
+    }
+
+    .link {
+      border-radius: 5px;
+      padding: 5px 10px;
+      text-decoration: none;
+      box-sizing: border-box;
+      background-color: skyblue;
+      color: white;
+      margin: auto 10px;
+      cursor: pointer;
+      transition: 0.5s;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .link:hover {
+      background-color: steelblue;
+      box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2),
+        0px 10px 14px 1px rgba(0, 0, 0, 0.14),
+        0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+    }
+  </style>
+  <body>
+    <header class="header">
+      <h1>Afu Server</h1>
+      <nav>
+        <a class="link" href="/api/theme">Get Theme</a>
+      </nav>
+    </header>
+  </body>
+</html>
