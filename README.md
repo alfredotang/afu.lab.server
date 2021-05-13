@@ -1,0 +1,1 @@
+afu.lab.server
